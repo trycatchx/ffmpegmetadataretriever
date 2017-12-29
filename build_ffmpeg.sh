@@ -12,7 +12,7 @@ export ENABLE_OPENSSL=false
 #    echo "NDK variable not set or path to NDK is invalid, exiting..."
 #    exit 1
 #fi
-
+# 这里我只需要 v7-a 的包所以指定了 一个平台，根据个人需求可进行替换
 export TARGET="armv7-a"
 BUILD_DIR=`pwd`/ffmpeg-android
 
